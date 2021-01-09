@@ -13,6 +13,10 @@ public class PR2_2Kid extends PR2_1Person {
         _Candy = candy;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String toString() {
         return super.toString() + ", " + "Favorite Candy: " + _Candy + "\n";
     }

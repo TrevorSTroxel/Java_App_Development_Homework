@@ -20,6 +20,10 @@ public class PR2_2Teacher extends PR2_1Person implements PR2_3Employee {
     int money;
     int ID;
 
+    
+    /** 
+     * @return String
+     */
     public String toString() {
         return super.toString() + ", " + "The grade level that they teach: " + _TeachingGradeLevel + ", "
                 + "Their college degree: " + _CollegeDegree + "\n";

@@ -4,7 +4,11 @@ import java.util.List;
 // import java.awt.*;
 // import java.awt.event.*;
 
-class Parent { // Superclass (parent)
+class Parent { 
+/** 
+ * @param talk(
+ */
+// Superclass (parent)
     public void talk() { // this is the method the child will inherit
         System.out.println("adult talk");
     }

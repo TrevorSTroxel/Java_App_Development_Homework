@@ -22,14 +22,26 @@ public class PR2_5City_Hall extends PR2_4Buildings {
 
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getPoliceNames() {
         return this.PoliceName;
     }
 
+    
+    /** 
+     * @param Police
+     */
     public void setPoliceName(String Police) {
         this.PoliceName = Police;
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return super.toString() + ", " + "Names of police inside " + getBuildingName() + ": " + getPoliceNames() + "\n";

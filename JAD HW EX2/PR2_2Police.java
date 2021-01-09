@@ -25,6 +25,10 @@ public class PR2_2Police extends PR2_1Person implements PR2_3Employee {
         _role = role;
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return super.toString() + ", " + "Role in police: " + _role + "\n";

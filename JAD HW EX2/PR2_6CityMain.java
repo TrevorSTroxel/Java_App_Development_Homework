@@ -10,15 +10,25 @@ import java.lang.Math; //used to randomize selection everytime
 import java.util.*;
 
 public class PR2_6CityMain {
+
+    /**
+     * @return String
+     */
     public static String randName() {
         String[] name = { "Bob", "Jim", "Jill", "Mary" }; // this will make random names for all the residents
         return name[(int) ((Math.random() * 4))];
     }
 
+    /**
+     * @return int
+     */
     public static int randAge() {
         return (int) ((Math.random() * 100) + 1);
     }
 
+    /**
+     * @return String
+     */
     public static String randPN() {
         int PhoneMin = 999, PhoneMax = 9999; // get random phone numbers
         DecimalFormat First = new DecimalFormat("000"); // makes the first part of the phone number into 3 decimal
@@ -28,27 +38,42 @@ public class PR2_6CityMain {
         return FirstPart + "-" + SecondPart; // This creates a random phone number
     }
 
+    /**
+     * @return String
+     */
     public static String randCandy() {
         String[] Candy = { "Butterfingers", "Milkyway", "M&M's", "Candy Corn" }; // random candy
         return Candy[(int) ((Math.random() * 4))];
     }
 
+    /**
+     * @return int
+     */
     public static int randTeachGrade() {
         int TeachingMin = 1, TeachingMax = 16; // what grade level are they teaching.
         return (int) ((Math.random() * TeachingMax) + TeachingMin);
     }
 
+    /**
+     * @return String
+     */
     public static String randEduLvl() {
         String[] EL = { "A.D.", "B.D.", "M.D.", "Doctors" };
         return EL[(int) ((Math.random() * 4))];
     }
 
+    /**
+     * @return String
+     */
     public static String randCityHall() {
         String[] CH = { "Spokane City Hall", "Airway Heights City Hall", "Davenport City Hall",
                 "Farmington City Hall" };
         return CH[(int) ((Math.random() * 4))];
     }
 
+    /**
+     * @return String
+     */
     public static String randStreetAdress() {
         DecimalFormat Numbers = new DecimalFormat("0000");
         String numberStreet = Numbers.format((Math.random() * 999));
@@ -57,11 +82,17 @@ public class PR2_6CityMain {
         return numberStreet + " " + " " + streetNames[(int) ((Math.random() * 4))] + type[(int) ((Math.random() * 5))];
     }
 
+    /**
+     * @return String
+     */
     public static String randSchoolName() {
         String[] SN = { "Adams", "Arlington", "Chase", "Garry", "Ferris", "Lewis & Clark" };
         return SN[(int) ((Math.random() * 6))];
     }
 
+    /**
+     * @param args
+     */
     // Return functions
 
     public static void main(String[] args) {

@@ -27,22 +27,42 @@ public class PR2_5School extends PR2_4Buildings {
 
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getTeachersNames() {
         return this.TeachersNames;
     }
 
+    
+    /** 
+     * @param Teacher
+     */
     public void setTeachersNames(String Teacher) {
         this.TeachersNames = Teacher;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getKidsNames() {
         return this.KidsNames;
     }
 
+    
+    /** 
+     * @param Kids
+     */
     public void setKidsNames(String Kids) {
         this.KidsNames = Kids;
     }
 
+    
+    /** 
+     * @return String
+     */
     @Override
     public String toString() {
         return super.toString() + ", " + "Names of the teachers inside: " + getBuildingName() + ": "
