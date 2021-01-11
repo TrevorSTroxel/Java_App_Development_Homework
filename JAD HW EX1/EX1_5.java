@@ -20,26 +20,50 @@ class Employee {
         this.EmployeeSuperior = EmployeeSuperior;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getID() {
         return EmployeeID;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getName() {
         return EmployeeName;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getHire() {
         return EmployeeHireDate;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getPosition() {
         return EmployeeCurrentPosition;
     }
 
+    
+    /** 
+     * @return String
+     */
     public String getBoss() {
         return EmployeeSuperior;
     }
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         String EmployeeID;
         String EmployeeName;

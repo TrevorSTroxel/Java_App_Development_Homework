@@ -4,6 +4,10 @@
 import java.util.Scanner;
 
 class String_to_integer {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Enter a number");
         Scanner UserNum = new Scanner(System.in); // this creatsa an object for the prgrammer to use as input

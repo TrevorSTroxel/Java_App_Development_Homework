@@ -44,6 +44,10 @@ public class PR3_1Functionality extends JFrame implements ActionListener {
         window.setVisible(true); // this will mkae the window appear on screen
     }
 
+    
+    /** 
+     * @param e
+     */
     @Override
     public void actionPerformed(ActionEvent e) {
         // TODO Auto-generated method stub

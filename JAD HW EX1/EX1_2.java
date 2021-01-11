@@ -1,5 +1,9 @@
 import java.util.Scanner; 
 class Area_of_a_Circle {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args){
         int n;
         final double PI = 3.14;

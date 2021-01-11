@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 class BMI {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         int pounds, inches;
         final double kilo = 0.45359237;

@@ -12,6 +12,10 @@ import java.text.ParseException; //this helps with the converstion of strings to
 
 class CalanderDate {
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
 
         do {
@@ -96,6 +100,11 @@ class CalanderDate {
         } while (true);
     }
 
+    
+    /** 
+     * @param inputDate
+     * @return boolean
+     */
     // This will be used to check if the date that was inputed is correct
     static boolean DateValidation(String inputDate) {
         // the try and catch statement are somewhat similar to a if and else statement
@@ -112,6 +121,11 @@ class CalanderDate {
 
     }
 
+    
+    /** 
+     * @param FirstDate
+     * @param SecondDate
+     */
     // Used for calculating the differences between the two dates for case 3
     static void DateDifferences(String FirstDate, String SecondDate) {
         SimpleDateFormat DC = new SimpleDateFormat("dd-MM-yyyy");

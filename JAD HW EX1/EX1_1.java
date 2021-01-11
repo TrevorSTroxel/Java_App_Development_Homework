@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 class Odd_or_Even {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         int n;
         System.out.println("Please input a number between 10 and 100");

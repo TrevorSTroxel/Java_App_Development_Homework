@@ -1,5 +1,9 @@
 import javax.swing.JFrame;
 public class HelloFrame {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hello Java");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
