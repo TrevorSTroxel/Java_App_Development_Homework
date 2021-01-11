@@ -5,6 +5,8 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.List;
 
 //import javax.swing.JButton;
 //import javax.swing.JComponent;
@@ -47,10 +49,11 @@ public class PR3_1Functionality extends JFrame implements ActionListener {
         window.setVisible(true); // this will mkae the window appear on screen
     }
 
-    private static void ListInfo() {
+    // reference: https://www.geeksforgeeks.org/java-swing-jlist-with-examples/
+    protected static void ListInfo() {
         // I will try to grab the information from the the other java files and put them
         // in here
-        
+        String[] List1;
     }
 
     /**
