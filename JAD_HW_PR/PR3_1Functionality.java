@@ -1,4 +1,5 @@
 import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -28,9 +29,12 @@ public class PR3_1Functionality extends JFrame implements ActionListener {
     }
 
     private void AddComponents() {
-        JFrame window = new JFrame("Testing");
+        JFrame window = new JFrame("Testing"); // this should make the window have a title of testing
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        _Text.setText("Hello world");
+        _Text.setText("Hello world"); // this should make this text appear in the middle of the screen
+        _Text.setPreferredSize(new Dimension(300, 100)); // this should alter the size of the text i believe
+        window.getContentPane().add(_Text);
+        // .getContentPane() is whats called a container in the code. IMPORTANT
     }
 
     public void showWindow() {
