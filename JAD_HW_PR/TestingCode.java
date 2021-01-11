@@ -33,7 +33,7 @@
 //package components;
 
 import java.awt.*;
-import java.awt.event.*;
+//import java.awt.event.*;
 import javax.swing.*;
 
 /* FrameDemo.java requires no other files. */
@@ -56,8 +56,7 @@ public class TestingCode {
         frame.setVisible(true);
     }
 
-    
-    /** 
+    /**
      * @param args
      */
     public static void main(String[] args) {
