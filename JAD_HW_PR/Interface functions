@@ -1,0 +1,44 @@
+Jpanel:
+Constructor of the class are :
+JPanel() : creates a new panel with flow layout
+JPanel(LayoutManager l) : creates a new JPanel with specified layoutManager
+JPanel(boolean isDoubleBuffered) : creates a new JPanel with a specified buffering strategy
+JPanel(LayoutManager l, boolean isDoubleBuffered) : creates a new JPanel with specified layoutManager and a specified buffering strategy
+
+Commonly used functions :
+add(Component c) : adds component to a specified container
+setLayout(LayoutManager l) : sets the layout of the container to specified layout manager
+updateUI() : resets the UI property with a value from the current look and feel.
+setUI(PanelUI ui) : sets the look and feel object that renders this component.
+getUI() : returns the look and feel object that renders this component.
+paramString() : returns a string representation of this JPanel.
+getUIClassID() : returns the name of the Look and feel class that renders this component.
+getAccessibleContext() : gets the AccessibleContext associated with this JPanel.
+
+JLabel:
+Constructor of the class are :
+JLabel() : creates a blank label with no text or image in it.
+JLabel(String s) : creates a new label with the string specified.
+JLabel(Icon i) : creates a new label with a image on it.
+JLabel(String s, Icon i, int align) : creates a new label with a string, an image and a specified horizontal alignment
+
+Commonly used methods of the class are :
+getIcon() : returns the image that that the label displays
+setIcon(Icon i) : sets the icon that the label will display to image i
+getText() : returns the text that the label will display
+setText(String s) : sets the text that the label will display to string s
+
+JButton:
+Constructors:
+JButton()	It creates a button with no text and icon.
+JButton(String s)	It creates a button with the specified text.
+JButton(Icon i)	It creates a button with the specified icon object.
+
+Methodes:
+void setText(String s)	It is used to set specified text on button
+String getText()	It is used to return the text of the button.
+void setEnabled(boolean b)	It is used to enable or disable the button.
+void setIcon(Icon b)	It is used to set the specified Icon on the button.
+Icon getIcon()	It is used to get the Icon of the button.
+void setMnemonic(int a)	It is used to set the mnemonic on the button.
+void addActionListener(ActionListener a)	It is used to add the action listener to this object.
