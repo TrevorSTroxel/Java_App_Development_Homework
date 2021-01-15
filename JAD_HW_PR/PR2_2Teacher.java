@@ -20,8 +20,35 @@ public class PR2_2Teacher extends PR2_1Person implements PR2_3Employee {
     int money;
     int ID;
 
-    
-    /** 
+    /**
+     * @param _TeachingGradeLevel
+     */
+    public void setTG(int _TeachingGradeLevel) {
+        this._TeachingGradeLevel = _TeachingGradeLevel;
+    }
+
+    /**
+     * @return int
+     */
+    public int getTG() {
+        return _TeachingGradeLevel;
+    }
+
+    /**
+     * @param _CollegeDegree
+     */
+    public void setCD(String _CollegeDegree) {
+        this._CollegeDegree = _CollegeDegree;
+    }
+
+    /**
+     * @return String
+     */
+    public String getCD() {
+        return _CollegeDegree;
+    }
+
+    /**
      * @return String
      */
     public String toString() {

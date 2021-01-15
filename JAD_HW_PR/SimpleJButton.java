@@ -43,6 +43,9 @@ public class SimpleJButton {
         });
     }
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         new SimpleJButton();
     }

@@ -1,0 +1,48 @@
+Box BoxListAdams = Box.createVerticalBox();
+Box BoxListArlington = Box.createVerticalBox();
+Box BoxListChase = Box.createVerticalBox();
+Box BoxListGarry = Box.createVerticalBox();
+Box BoxListFerris = Box.createVerticalBox();
+Box BoxListLewisClark = Box.createVerticalBox();
+
+BoxEnabling(1);
+BoxVisable(0);
+BoxVisable(1);
+
+public void BoxEnabling(int i) {
+if (i == 1) {
+BoxListAdams.setEnabled(true);
+BoxListArlington.setEnabled(true);
+BoxListChase.setEnabled(true);
+BoxListFerris.setEnabled(true);
+BoxListGarry.setEnabled(true);
+BoxListLewisClark.setEnabled(true);
+} else {
+BoxListAdams.setEnabled(false);
+BoxListArlington.setEnabled(false);
+BoxListChase.setEnabled(false);
+BoxListFerris.setEnabled(false);
+BoxListGarry.setEnabled(false);
+BoxListLewisClark.setEnabled(false);
+}
+
+}
+
+public void BoxVisable(int i) {
+if (i == 1) {
+BoxListAdams.setVisible(true);
+BoxListArlington.setVisible(true);
+BoxListChase.setVisible(true);
+BoxListFerris.setVisible(true);
+BoxListGarry.setVisible(true);
+BoxListLewisClark.setVisible(true);
+} else {
+BoxListAdams.setVisible(false);
+BoxListArlington.setVisible(false);
+BoxListChase.setVisible(false);
+BoxListFerris.setVisible(false);
+BoxListGarry.setVisible(false);
+BoxListLewisClark.setVisible(false);
+}
+
+}

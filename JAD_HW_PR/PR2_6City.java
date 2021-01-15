@@ -12,6 +12,14 @@ import java.util.*;
 public class PR2_6City {
 
     /**
+     * @return int
+     */
+    public static int choice() {
+        int choice = (int) (Math.random() * 4) + 1;
+        return choice;
+    }
+
+    /**
      * @return String
      */
     public static String randName() {
@@ -90,6 +98,10 @@ public class PR2_6City {
         return SN[(int) ((Math.random() * 6))];
     }
 
+    /**
+     * @param i
+     * @return PR2_2Kid
+     */
     //////////////////////////////////////////////////////////////////////////////////////////
     // return functions for each array
     public PR2_2Kid getKid(int i) {
@@ -99,10 +111,17 @@ public class PR2_6City {
             return null;
     }
 
+    /**
+     * @return int
+     */
     public int getKidAmount() {
         return Kid.size();
     }
 
+    /**
+     * @param i
+     * @return PR2_2Police
+     */
     public PR2_2Police getPol(int i) {
         if (i >= 0 && i < Police.size())
             return Police.get(i);
@@ -110,10 +129,17 @@ public class PR2_6City {
             return null;
     }
 
+    /**
+     * @return int
+     */
     public int getPolAmount() {
         return Police.size();
     }
 
+    /**
+     * @param i
+     * @return PR2_2Teacher
+     */
     public PR2_2Teacher getTeach(int i) {
         if (i >= 0 && i < Teacher.size())
             return Teacher.get(i);
@@ -121,10 +147,17 @@ public class PR2_6City {
             return null;
     }
 
+    /**
+     * @return int
+     */
     public int getTeachAmount() {
         return Teacher.size();
     }
 
+    /**
+     * @param i
+     * @return PR2_5City_Hall
+     */
     public PR2_5City_Hall getCH(int i) {
         if (i >= 0 && i < City_Hall.size())
             return City_Hall.get(i);
@@ -132,10 +165,17 @@ public class PR2_6City {
             return null;
     }
 
+    /**
+     * @return int
+     */
     public int getCHAmount() {
         return City_Hall.size();
     }
 
+    /**
+     * @param i
+     * @return PR2_5School
+     */
     public PR2_5School getSchool(int i) {
         if (i >= 0 && i < School.size())
             return School.get(i);
@@ -143,8 +183,192 @@ public class PR2_6City {
             return null;
     }
 
+    /**
+     * @return int
+     */
     public int getSHAmountt() {
+
         return School.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getAdams(int i) {
+        if (i >= 0 && i < Adams.size())
+            return Adams.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getAdamsSize() {
+        return Adams.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getArlington(int i) {
+        if (i >= 0 && i < Arlington.size())
+            return Arlington.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getArlingtonsize() {
+        return Arlington.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getGarry(int i) {
+        if (i >= 0 && i < Garry.size())
+            return Garry.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getGarrysize() {
+        return Garry.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getFerris(int i) {
+        if (i >= 0 && i < Ferris.size())
+            return Ferris.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getFerrissize() {
+        return Ferris.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getChase(int i) {
+        if (i >= 0 && i < Chase.size())
+            return Chase.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getChasesize() {
+        return Chase.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getLewis_Clark(int i) {
+        if (i >= 0 && i < Lewis_Clark.size())
+            return Lewis_Clark.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getLewis_Clarksize() {
+        return Lewis_Clark.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getSCH(int i) {
+        if (i >= 0 && i < SCH.size())
+            return SCH.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getSCHsize() {
+        return SCH.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getAHCH(int i) {
+        if (i >= 0 && i < AHCH.size())
+            return AHCH.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getAHCHsize() {
+        return AHCH.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getDCH(int i) {
+        if (i >= 0 && i < DCH.size())
+            return DCH.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getDCHsize() {
+        return DCH.size();
+    }
+
+    /**
+     * @param i
+     * @return CH_SH
+     */
+    public CH_SH getFCH(int i) {
+        if (i >= 0 && i < FCH.size())
+            return FCH.get(i);
+        else
+            return null;
+    }
+
+    /**
+     * @return int
+     */
+    public int getFCHsize() {
+        return FCH.size();
     }
 
     ////////////////////////////////////////////////////////////////////////////////
@@ -181,8 +405,7 @@ public class PR2_6City {
             Teacher.add(new PR2_2Teacher(randName(), randAge(), randPN(), randTeachGrade(), randEduLvl()));
 
             // I need 4 different objects because i can not randomize enum
-            int choice = (int) Math.random() * 4 + 1;
-            switch (choice) {
+            switch (choice()) {
                 case 1:
                     Police.add(new PR2_2Police(randName(), randAge(), randPN(), PR2_2Police.Status.PATROL));
                     break;
